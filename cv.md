@@ -51,16 +51,13 @@ function showThanksModal(message) {
 
 
 ## Experience
-2009-2012
-
+2009-2012.
 Founder and administrator of **UnderMusic.Org**, popular Belarusian music portal on the Guest ByFly Internet. Created on the CMS DataLife Engine.
 
 
 ## Education
-Belarusian State Agrarian Technical University
-
-Engineer's degree, Supply in Agriculture (power industry)
-
+Belarusian State Agrarian Technical University.
+Engineer's degree, Power supply in Agriculture (electric power industry).
 2011-2016
 
 ## Courses 
