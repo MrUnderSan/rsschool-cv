@@ -61,11 +61,9 @@ Engineer's degree, Power supply in Agriculture (electric power industry).
 2011-2016
 
 ## Courses 
-|Platform   |Name                                                                                |Сurrent result                 |
-|-----------|------------------------------------------------------------------------------------|:-----------------------------:|
-|Udemy      |WEB-developer 2021 by Ivan Petrychenko                                              |100% received the Certificate  |
-|Udemy      |The Complete JavaScript + React Course - from scratch to result by Ivan Petrychenko |35%...                         |
-|RS School  |JS/FE Pre-School 2022                                                               |Recently started...            |
+* Udemy: WEB-developer 2021 by Ivan Petrychenko: *100% received the Certificate*
+* Udemy: The Complete JavaScript + React Course - from scratch to result by Ivan Petrychenko: *35% completed*
+* RS School: JS/FE Pre-School 2022: *Recently started*
 
 
 ## Languages
