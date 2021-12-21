@@ -14,7 +14,9 @@
 
 
 ## About Me
-I am 28 years old. I'm work as a supervisor of maintenance and repair of 330 kV SF6 gas-insulated switchgear, power transformers and 330 kV current conductors in a Belarusian Nuclear Power Plant. I think that my actual job will lead me to stagnation some day or other. I really need in activities where I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.
+I am 28 years old. I work as a supervisor of maintenance and repair of 330 kV SF6 gas-insulated switchgear, power transformers and 330 kV current conductors at the Belarusian Nuclear Power Plant. This is a good and high-paying job. 
+But I have always been intrested in IT and software engineering. That is why I have started learning Web development. Now I think my skills and abilities are enough to get job in the field of front-end development.
+
 ## Skills
 * HTML
 * CSS (Bootstrap, SASS/SCSS, BEM)
