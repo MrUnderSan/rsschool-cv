@@ -5,8 +5,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__photo">
+                <img src="" alt="My photo">
+            </div>
+            <div class="header__info">
+                <div class="header__info_firstname">
+                    Alexander
+                </div>
+                <div class="header__info_secondname">
+                    Yurhilevich
+                </div>
+                <h1 class="header__info_profession">
+                    Junior Front End Developer
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__short">
+                <div class="main__about">
+                    <h2 class="mane__about_title title">
+                        About Me
+                    </h2>
+                    <div class="main__about_descr">
+                        I am 28 years old. I work as a supervisor of maintenance and repair of 330 kV SF6 gas-insulated switchgear, power transformers and 330 kV current conductors at the Belarusian Nuclear Power Plant. This is a good and high-paying job. But I have always been intrested in IT and software engineering. That is why I have started learning Web development. Now I think my skills and abilities are enough to get job in the field of front-end development.
+                    </div>
+                </div>
+
+                <div class="main__contacts">
+                    <h2 class="main__contacts_title title">
+                        Contacts
+                    </h2>
+                    <ul class="main__contacts_ul">
+                        <li class="main__contacts_li">
+                            <img src="" alt="phone" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                +375 25 92-888-55
+                            </div>
+                        </li>
+                        <li class="main__contacts_li">
+                            <img src="" alt="mail" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                MrUnderSan@gmail.com
+                            </div>
+                        </li>
+                        <li class="main__contacts_li">
+                            <img src="" alt="LinkedIn" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                LinkedIn
+                            </div>
+                        </li>
+                        <li class="main__contacts_li">
+                            <img src="" alt="GitHub" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                GitHub
+                            </div>
+                        </li>
+                        <li class="main__contacts_li">
+                            <img src="" alt="Telegram" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                Telegram
+                            </div>
+                        </li>
+                        <li class="main__contacts_li">
+                            <img src="" alt="Instagram" class="main__contacts_icon">
+                            <div class="main__contacts_descr">
+                                Instagram
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__skills">
+                    <h2 class="main__skills_title title">
+                        Skills
+                    </h2>
+                    <div class="main__skills_ul">
+                        <div class="main__skills_li">HTML</div>
+                        <div class="main__skills_li">CSS (Bootstrap, SASS/SCSS, BEM)</div>
+                        <div class="main__skills_li">Git/GitHub</div>
+                        <div class="main__skills_li">JavaScript</div>
+                    </div>
+                </div>
+
+                <div class="main__interest">
+                    <h2 class="main__interest_title title">
+                        Interest
+                    </h2>
+                </div>
+            </div>
+
+            <div class="main__long">
+                <div class="main__experiense">
+                    <h2 class="main__experiense_title title">
+                        Experience
+                    </h2>
+                    <div class="main__experiense_descr">
+                        2009-2012.
+                        Founder and administrator of **UnderMusic.Org**, popular Belarusian music portal on the Guest ByFly Internet. Created on the CMS DataLife Engine.
+                    </div>
+                </div>
+
+                <div class="main__courses">
+                    <h2 class="main__courses_title">
+                        Courses
+                    </h2>
+                    <ul class="main__courses_ul">
+                        <li class="main__courses_li">
+                            Udemy: WEB-developer 2021 by Ivan Petrychenko: 100% received the Certificate
+                        </li>
+                        <li class="main__courses_li">
+                            Udemy: The Complete JavaScript + React Course - from scratch to result by Ivan Petrychenko: 35% completed
+                        </li>
+                        <li class="main__courses_li">
+                            RS School: JS/FE Pre-School 2022: Recently started
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__examples">
+                    <h2 class="maine__examples_title title">
+                        Code Examples
+                    </h2>
+                    <pre class="main__examples_code">
+                        <code>
+                            function showThanksModal(message) { 
+                                const prevModalDialog = document.querySelector('.modal__dialog');
+                            
+                                prevModalDialog.classList.add('hide');
+                                openModal();
+                            
+                                const thanksModal = document.createElement('div');
+                                thanksModal.classList.add('modal__dialog');
+                                thanksModal.innerHTML = `
+                                &lt;div class="modal__content">
+                                    &lt;div class="modal__close" data-close>×&lt;/div>
+                                    &lt;div class="modal__title">${message}&lt;/div>
+                                &lt;/div>
+
+                                `;
+                                document.querySelector('.modal').append(thanksModal);
+                                setTimeout(() => {
+                                    thanksModal.remove();
+                                    prevModalDialog.classList.add('show');
+                                    prevModalDialog.classList.remove('hide');
+                                    closeModal();
+                                }, 4000);
+                            }
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="main__project">
+                    <h2 class="main__project_title title">
+                        My project
+                    </h2>
+                </div>
+
+                <div class="main__education">
+                    <h2 class="main__education_title title">
+                        Education
+                    </h2>
+                    <div class="main__education_descr">
+                        Belarusian State Agrarian Technical University.
+                        Engineer's degree, Power supply in Agriculture (electric power industry).
+                        2011-2016
+                    </div>
+                </div>
+
+                <div class="main__languages">
+                    <h2 class="main__languages_title">
+                        Languages
+                    </h2>
+                    <ul class="main__languages_ul">
+                        <li class="main__languages_li">
+                            Russian - native speaker
+                        </li>
+                        <li class="main__languages_li">
+                            English - A2
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copyright">
+                © 2022 by Alexander Yurhilevich
+            </div>
+            <a href="https://github.com/MrUnderSan" target="_blank" class="footer__github">
+                <img src="" alt="GitHub" class="footer__github-img">
+            </a>
+            <a href="https://rs.school/js-stage0/" target="_blank" class="footer__rs">
+                <img src="" alt="Rolling Scopes School" class="footer__rs-img">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
