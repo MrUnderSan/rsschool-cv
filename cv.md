@@ -44,13 +44,13 @@ export const todolistsReducer = (state = initState, action: ActionsType): Todoli
 
 ## Experience
 
-2009-2012.
+2009-2012.  
 Founder and administrator of **UnderMusic.Org**, popular Belarusian music portal on the Guest ByFly Internet. Created on the CMS DataLife Engine.
 
 ## Education
 
-Belarusian State Agrarian Technical University.
-Engineer's degree, Energy Supply (Electric Power Industry)
+Belarusian State Agrarian Technical University  
+Engineer's degree, Energy Supply (Electric Power Industry)  
 2011-2016
 
 ## Courses
