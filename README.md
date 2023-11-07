@@ -1,1 +1,1 @@
-https://MrUnderSan.github.io/rsschool-cv/
+https://MrUnderSan.github.io/rsschool-cv/cv
