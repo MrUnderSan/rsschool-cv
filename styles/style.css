@@ -1,37 +1,33 @@
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Light"), local("OpenSans-Light"), url("fonts/OpenSans-Light.woff2") format("woff2"), url("fonts/OpenSans-Light.woff") format("woff"), url("fonts/OpenSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans SemiCondensed Regular"), local("OpenSansSemiCondensed-Regular"), url("fonts/OpenSansSemiCondensed-Regular.woff2") format("woff2"), url("fonts/OpenSansSemiCondensed-Regular.woff") format("woff"), url("fonts/OpenSansSemiCondensed-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("fonts/OpenSans-Semibold.woff2") format("woff2"), url("fonts/OpenSans-Semibold.woff") format("woff"), url("fonts/OpenSans-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("fonts/OpenSans-Bold.woff2") format("woff2"), url("fonts/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans-Bold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
-
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   color: #404042;
@@ -48,10 +44,8 @@ a {
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 380px 1fr;
-      grid-template-columns: 380px 1fr;
+  grid-template-columns: 380px 1fr;
 }
 
 .title {
@@ -60,7 +54,6 @@ a {
   text-transform: uppercase;
   margin: 30px 0 30px;
 }
-
 .title_first {
   margin-top: 0;
 }
@@ -68,12 +61,6 @@ a {
 .header {
   height: 380px;
 }
-
-.header__photo img {
-  /*             width: 100%; */
-  /*             height: 100%; */
-}
-
 .header__info {
   padding: 90px 35px;
   -webkit-box-align: start;
@@ -81,7 +68,6 @@ a {
           align-items: flex-start;
   background-color: #404042;
 }
-
 .header__info-firstname {
   text-transform: uppercase;
   font-size: 55px;
@@ -89,7 +75,6 @@ a {
   letter-spacing: 3px;
   color: #ffffff;
 }
-
 .header__info-secondname {
   text-transform: uppercase;
   font-size: 40px;
@@ -98,7 +83,6 @@ a {
   padding-top: 35px;
   color: #ffffff;
 }
-
 .header__info-profession {
   font-weight: 300;
   font-size: 17px;
@@ -111,30 +95,25 @@ a {
 .main {
   line-height: 20px;
 }
-
 .main__short {
   font-weight: 500;
   font-size: 14px;
   background-color: #e6e7e9;
   padding: 75px 65px 75px 65px;
 }
-
 .main__long {
   font-weight: 300;
   font-size: 14px;
   background-color: #ffffff;
   padding: 75px 45px 75px 40px;
 }
-
 .main code {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   line-height: 0px;
 }
-
 .main__about-descr {
   text-align: justify;
 }
-
 .main__interest-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,13 +121,11 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .main__interest-icons {
   width: 45px;
   height: 45px;
   position: relative;
 }
-
 .main__interest img {
   position: absolute;
   margin: auto;
@@ -157,7 +134,6 @@ a {
   bottom: 0;
   right: 0;
 }
-
 .main__contacts-li {
   margin-top: 30px;
   display: -webkit-box;
@@ -170,11 +146,9 @@ a {
           justify-content: flex-start;
   height: 20px;
 }
-
 .main__contacts-li_first {
   margin-top: 0;
 }
-
 .main__contacts-li img {
   margin-right: 30px;
 }
@@ -183,11 +157,9 @@ a {
   padding: 0 25px 20px;
   background-color: #e6e7e9;
 }
-
 .footer__rs img {
   width: 50px;
 }
-
 .footer__copyright {
   padding: 0 25px 20px;
   display: -webkit-box;
@@ -201,5 +173,4 @@ a {
           justify-content: flex-end;
   font-size: 10px;
   background-color: #ffffff;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
