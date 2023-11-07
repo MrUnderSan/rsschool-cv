@@ -168,7 +168,7 @@
                         </h2>
                         <pre class="main__examples-code">
 <code>export const todolistsReducer = 
-    (state = initState, action: ActionsType): TodolistType[] => {
+    (state = initState, action: ActionsType): TodolistType[] =&gt; {
         switch (action.type) {
             case 'ADD-TODOLIST':
                 const newTodolist: TodolistType = {
@@ -178,9 +178,9 @@
                 }
                 return [...state, newTodolist]
             case 'REMOVE-TODOLIST':
-                return state.filter(t => t.id !== action.payload.id)
+                return state.filter(t =&gt; t.id !== action.payload.id)
             case 'CHANGE-TODOLIST-TITLE':
-                return state.map(t =>
+                return state.map(t =&gt;
                     t.id === action.payload.id
                         ? { ...t, title: action.payload.title }
                         : t
